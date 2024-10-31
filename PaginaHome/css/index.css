@@ -154,6 +154,18 @@ header #logotipo {
   margin: 0 auto 20px auto;
 }
 
+/*section {
+  display: flex;
+}
+
+#call h2 {
+  color: red;
+  text-align: center;
+  position: absolute;
+  font-size: 36px;
+  margin-top: 20px;
+}*/
+
 .row-thumbnail {
   margin-top: 20px;
   align-self: center;
