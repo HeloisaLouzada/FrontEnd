@@ -183,6 +183,32 @@ header #logotipo {
   width: 100%;
 }
 
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 130px;
+  height: 50px;
+  width: 50px;
+}
+
+.owl-prev {
+  left: 0;
+}
+
+.owl-next {
+  right: 0;
+}
+
+.owl-prev span,
+.owl-next span {
+  position: relative;
+  display: inline;
+  font-size: 30px;
+  color: var(--cor-header-top);
+}
+
 #estatisticas {
   background-color: var(--cor-header-top);
   width: 100%;
