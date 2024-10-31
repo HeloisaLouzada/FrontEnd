@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAPES</title>
+    <link rel="stylesheet" href="lib/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css" />
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="container">
+            <img id="logotipo" src="png/Logotipo.png" width="220" height="110" alt="Logotipo">
+        </div>
+
+        <div class="header-darkblue">
+
+            <div class="container">
+
+                <ul class="float-right">
+                    <li class="menu-01"><a href="https://www.banestes.com.br/"></a></li>
+                    <li class="menu-02"><a href="https://www.gov.br/cnpq/pt-br"></a></li>
+                    <li class="menu-03"><a href="https://www.newtonfund.com.br/"></a></li>
+                    <li class="menu-04"><a href="https://www.rnp.br/"></a></li>
+                    <li class="menu-05"><a href="https://consecti.org.br/"></a></li>
+                    <li class="menu-06"><a href="https://www.gov.br/mcti/pt-br"></a></li>
+                    <li class="menu-07"><a href="https://news.confap.org.br/"></a></li>
+                    <li class="menu-08"><a href="http://www.finep.gov.br/"></a></li>
+                    <li class="menu-09"><a href="https://www.gov.br/capes/pt-br"></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="container">
+            <!--<div class="row">-->
+
+            <nav id="menu" class="float-right">
+                <ul class="float-right">
+                    <li><a href="https://fapes.es.gov.br/Editais/Abertos">Editais</a></li>
+                    <li><a href="https://www.sigfapes.es.gov.br/index.php?id=6">Cadastro</a></li>
+                    <li><a href="https://fapes.es.gov.br/fale-conosco">Fale Conosco</a></li>
+                    <li class="search">
+                        <div class="input-group mb-3">
+                            <input type="search" class="form-control" placeholder="Buscar..." aria-label="Buscar"
+                                aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button tabindex="4" type="button"><i class="bi bi-search"></i></button>
+                            </div>
+                        </div>
+                        <!--<input type="search" placeholder="buscar...">-->
+                    </li>
+                </ul>
+            </nav>
+
+            <!--</div>-->
+        </div>
+
+    </header>
+
+    <section>
+        <div class="login-container">
+            <form class="login-form">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="cpf">Login, CPF ou Nº de Login:</label>
+                    <input tabindex="2" type="text" id="cpf" name="cpf" class="form-control"
+                        placeholder="Digite seu CPF">
+                </div>
+                <div class="form-group">
+                    <label for="password">Senha:</label>
+                    <input tabindex="1" type="password" id="password" name="password" class="form-control"
+                        placeholder="Digite sua senha">
+                </div>
+
+
+                <button tabindex="3" type="button" class="btn btn-primary"
+                    onclick="window.location.href='../Entrada/index.html'">Entrar</button>
+
+                <!-- Sei que deveria estar aqui type="submit"
+				<a href="../Entrada/index.html"></a>
+				<button tabindex="3" type="submit" class="btn btn-primary" onclick="proximaPag()">Entrar</button>-->
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container-final">
+            <h6>By: Lolô insanidades</h>
+        </div>
+    </footer>
+
+    <script src="lib/jq/jquery-3.7.1.js"></script>
+    <script src="lib/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#logotipo").on("mouseover", function () {
+
+                console.log("Passou o mouse no logotipo")
+            })
+
+
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+@import "../../Utilitarios/variaveis.css";
+
+* {
+  margin: 0;
+}
+
+header {
+  width: var(--width-header);
+  height: var(--height-header);
+  background: var(--cor-header-undertop);
+}
+
+header .container {
+  position: relative;
+}
+
+header .header-darkblue {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cor-header-top);
+  height: var(--height-header-darkbue);
+}
+
+header .header-darkblue li {
+  background-image: url("../png/Patrocinadores.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 8px 1px;
+}
+
+header .header-darkblue li.menu-01 {
+  background-position: 0px 0px;
+}
+
+header .header-darkblue li.menu-02 {
+  background-position: -119px 0px;
+}
+
+header .header-darkblue li.menu-03 {
+  background-position: -240px 0px;
+}
+
+header .header-darkblue li.menu-04 {
+  background-position: -362px 0px;
+}
+header .header-darkblue li.menu-05 {
+  background-position: -481px 0px;
+}
+
+header .header-darkblue li.menu-06 {
+  background-position: -598px 0px;
+}
+
+header .header-darkblue li.menu-07 {
+  background-position: -718px 0px;
+}
+
+header .header-darkblue li.menu-08 {
+  background-position: -831px 0px;
+}
+
+header .header-darkblue li.menu-09 {
+  background-position: -950px 0px;
+}
+
+header .header-darkblue li a {
+  width: 80px;
+  height: 30px;
+  display: block;
+}
+
+header #logotipo {
+  position: absolute;
+  top: 20px;
+  z-index: 3;
+}
+
+#menu {
+  margin: 10px 4px;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu li.search {
+  width: 182px;
+}
+
+#menu li.search input {
+  background-color: var(--cor-campos);
+  color: #fff;
+  border: none;
+  height: 30px;
+  width: 100%;
+  top: 5px;
+}
+
+#menu li.search ::-webkit-input-placeholder {
+  color: #ededed;
+}
+
+#menu li.search button {
+  background-color: var(--cor-button);
+  background: none;
+  border: none;
+  height: 30px;
+  line-height: 30px;
+}
+
+#menu li.search button i {
+  font-size: 16px;
+  color: #ededed;
+  position: absolute;
+  right: 20px;
+  top: 7px;
+}
+
+#menu li a {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+body.login-container {
+  position: relative;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.login-form {
+  background-color: var(--cor-campos);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--cor-button);
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #529faa;
+}
+
+body.login-container {
+  position: relative;
+}
+
+body.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da viewport tem que olhar certinhooooo*/
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--cor-button);
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--cor-houver);
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
+  color: #6c757d;
+}
+
+footer {
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+}
+
+footer .container-final {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h5,
+footer p {
+  text-align: center;
+  padding: 5px 0; /* Espaçamento vertical entre os elementos a parte internaaaa */
+}

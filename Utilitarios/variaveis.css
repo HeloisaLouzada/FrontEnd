@@ -1,0 +1,12 @@
+:root {
+  --cor-header-top: #006b88;
+  --cor-header-undertop: #3795a4;
+  --cor-campos: #529faa;
+  --cor-button: #006b88;
+  --cor-houver: #395099;
+  --cor-icons: #fff;
+
+  --width-header: 100%;
+  --height-header: 150px;
+  --height-header-darkbue: 50px;
+}
