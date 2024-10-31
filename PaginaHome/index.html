@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FAPES</title>
     <link rel="stylesheet" href="lib/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="lib/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="lib/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css" />
 
@@ -71,34 +71,88 @@
 
         </div>
 
-        <div class="row-thumbnail">
-            <div class="col-md-3">
-                <img src="png/noticia1.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
-                <h3>Startup apoiada pela Fapes chega à final no maior evento de competição entre startup do mundo</h3>
-                <time>Outubro 22, 2024</time>
+        <div class="row-thumbnail owl-carousel own-theme">
+
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia1.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Startup apoiada pela Fapes chega à final no maior evento de competição entre startup do mundo
+                    </h3>
+                    <time>Outubro 22, 2024</time>
+                </div>
             </div>
 
-            <div class="col-md-3">
-                <img src="png/noticia2.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
-                <h3>Fapes lança edital de mais de R$ 6 milhões para iniciação científica júnior de alunos da Rede
-                    Pública do Estado</h3>
-                <time>Outubro 23, 2024</time>
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia2.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes lança edital de mais de R$ 6 milhões para iniciação científica júnior de alunos da Rede
+                        Pública do Estado</h3>
+                    <time>Outubro 23, 2024</time>
+                </div>
             </div>
 
-            <div class="col-md-3">
-                <img src="png/noticia3.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
-                <h3>Fapes apoia simpósios relacionados à tecnologia e à sustentabilidade do café conilon na Ufes de São
-                    Mateus</h3>
-                <time>Outubro 21, 2024</time>
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia3.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes apoia simpósios relacionados à tecnologia e à sustentabilidade do café conilon na Ufes de
+                        São
+                        Mateus</h3>
+                    <time>Outubro 21, 2024</time>
+                </div>
             </div>
 
-            <div class="col-md-3">
-                <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
-                <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
-                    Santo</h3>
-                <time>Outubro 18, 2024</time>
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
+                        Santo</h3>
+                    <time>Outubro 18, 2024</time>
+                </div>
             </div>
+
+            <!-- INICIO DO TESTE-->
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
+                        Santo</h3>
+                    <time>Outubro 18, 2024</time>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
+                        Santo</h3>
+                    <time>Outubro 18, 2024</time>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
+                        Santo</h3>
+                    <time>Outubro 18, 2024</time>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-inner">
+                    <img src="png/noticia4.jpeg" width="260px" height="153px" alt="NOTÍCIAS">
+                    <h3>Fapes e Iema lançam edital em conjunto para financiar eventos de educação ambiental no Espírito
+                        Santo</h3>
+                    <time>Outubro 18, 2024</time>
+                </div>
+            </div>
+            <!-- FINAL DO TESTE-->
         </div>
+
+        <nav>
+            <button></button>
+        </nav>
+    </div>
     </div>
 
     <div id="estatisticas">
@@ -189,9 +243,10 @@
         </div>
     </footer>
     <script src="lib/jq/jquery-3.7.1.js"></script>
-    <script src="lib/owl-carousel/"></script>
+    <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="lib/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
     <script>
+
         $(document).ready(function () {
             $("#logotipo").on("mouseover", function () {
 
@@ -210,8 +265,33 @@
                 $("li.search").removeClass("ativo");
 
             });
+
+            $(".row-thumbnail").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                //navText: ["Anterior", "Próximo"],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    480: {
+                        items: 3
+                    },
+                    768: {
+                        items: 4
+                    },
+                    1200: {
+                        items: 5
+                    }
+                }
+            });
         });
+
+
+
     </script>
+
 </body>
 
 </html>

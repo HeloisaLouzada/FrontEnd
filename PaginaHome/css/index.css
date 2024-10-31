@@ -175,6 +175,14 @@ header #logotipo {
   font-size: 14px;
 }
 
+.row-thumbnail item-inner {
+  padding: 10px;
+}
+
+.row-thumbnail item-inner img {
+  width: 100%;
+}
+
 #estatisticas {
   background-color: var(--cor-header-top);
   width: 100%;
