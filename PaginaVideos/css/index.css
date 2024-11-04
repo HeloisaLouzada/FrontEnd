@@ -222,9 +222,10 @@ header #logotipo {
 
 .owl-prev span,
 .owl-next span {
+  border: none;
   position: relative;
   display: inline;
-  font-size: 30px;
+  font-size: 50px;
   color: var(--cor-header-top);
 }
 
@@ -368,4 +369,9 @@ footer .col-get-in-touch i {
 
 footer .telefone {
   margin-top: -13px;
+}
+
+#btn-list,
+#btn-search {
+  display: none;
 }

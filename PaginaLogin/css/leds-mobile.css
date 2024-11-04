@@ -1,0 +1,41 @@
+@import "../../Utilitarios/variaveis.css";
+
+/*Esse documento irá sobrescrever os tamanhos/relações já estabelecidas, ou seja, os tamanhos e resoluções para tela de computador*/
+/*@media screen -> apenas o que vier da tela*/
+
+/*Tamanho padrão para tablets*/
+@media screen and (max-width: 768px) {
+  .header-darkblue ul {
+    display: none;
+  }
+}
+
+/*Tamanho padrão para smatphones*/
+@media screen and (max-width: 480px) {
+  .header-darkblue ul,
+  #menu {
+    display: none;
+  }
+
+  #logotipo {
+    left: 25%;
+  }
+
+  #btn-list,
+  #btn-search {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    background: none;
+    border: none;
+  }
+
+  #btn-list {
+    left: 0;
+  }
+
+  #btn-search {
+    right: 0;
+  }
+}
