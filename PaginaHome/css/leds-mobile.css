@@ -8,6 +8,72 @@
   .header-darkblue ul {
     display: none;
   }
+
+  #logotipo {
+    left: 25%;
+  }
+  #news {
+    justify-items: center;
+    text-align: center;
+  }
+  #news h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #news hr {
+    border-width: 4px;
+  }
+
+  #news h3 {
+    top: 5px;
+    font-size: 18px;
+  }
+
+  #btn-list,
+  #btn-search {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    background: none;
+    border: none;
+  }
+
+  #btn-list {
+    left: 0;
+  }
+
+  #btn-search {
+    right: 0;
+  }
+}
+
+.owl-carousel .owl-wrapper-outer {
+  margin-left: 15px;
+}
+
+.row-thumbnail {
+  text-align: center;
+}
+
+/*.owl-carousel .owl-item img {
+  width: 80%;
+  height: 70%;
+  justify-self: center;
+}*/
+
+.owl-carousel .owl-item img {
+  width: 288px;
+  height: 153px;
+  justify-self: center;
+}
+
+#estatisticas {
+  height: inherit;
+}
+#estatisticas hr {
+  border-width: 4px;
 }
 
 /*Tamanho padrão para smatphones*/
@@ -33,6 +99,11 @@
     border-width: 4px;
   }
 
+  #news h3 {
+    top: 5px;
+    font-size: 18px;
+  }
+
   #btn-list,
   #btn-search {
     color: #fff;
@@ -52,12 +123,7 @@
   }
 }
 
-#news h3 {
-  top: 5px;
-  font-size: 18px;
-}
-
-owl-carousel .owl-wrapper-outer {
+.owl-carousel .owl-wrapper-outer {
   margin-left: 15px;
 }
 
@@ -65,38 +131,35 @@ owl-carousel .owl-wrapper-outer {
   text-align: center;
 }
 
-.owl-carousel .owl-item img {
+/*.owl-carousel .owl-item img {
   width: 80%;
-  /*height: 70%;*/
+  height: 70%;
+  justify-self: center;
+}*/
+
+.owl-carousel .owl-item img {
+  width: 288px;
+  height: 153px;
   justify-self: center;
 }
-
-/*.owl-prev,
-.owl-next {
-  outline: none;
-}
-#btn-news-prev,
-#btn-news-next {
-  background: none;
-  border: none;
-  color: var(--cor-button);
-  font-size: 48px;
-  display: block;
-  position: absolute;
-  top: 130px;
-}
-
-#btn-news-prev {
-  left: 5px;
-}
-
-#btn-news-next {
-  right: 5px;
-}*/
 
 #estatisticas {
   height: inherit;
 }
+
 #estatisticas hr {
   border-width: 4px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.hidden-xs {
+  display: none;
+}
+
+.copyrigth-mobile p {
+  font-size: 10px;
+  line-height: 0px;
 }
