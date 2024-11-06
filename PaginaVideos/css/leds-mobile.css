@@ -1,0 +1,165 @@
+@import "../../Utilitarios/variaveis.css";
+
+/*Esse documento irá sobrescrever os tamanhos/relações já estabelecidas, ou seja, os tamanhos e resoluções para tela de computador*/
+/*@media screen -> apenas o que vier da tela*/
+
+/*Tamanho padrão para tablets*/
+@media screen and (max-width: 768px) {
+  .header-darkblue ul {
+    display: none;
+  }
+
+  #logotipo {
+    left: 25%;
+  }
+  #news {
+    justify-items: center;
+    text-align: center;
+  }
+  #news h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #news hr {
+    border-width: 4px;
+  }
+
+  #news h3 {
+    top: 5px;
+    font-size: 18px;
+  }
+
+  #btn-list,
+  #btn-search {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    background: none;
+    border: none;
+  }
+
+  #btn-list {
+    left: 0;
+  }
+
+  #btn-search {
+    right: 0;
+  }
+}
+
+.owl-carousel .owl-wrapper-outer {
+  margin-left: 15px;
+}
+
+.row-thumbnail {
+  text-align: center;
+}
+
+/*.owl-carousel .owl-item img {
+  width: 80%;
+  height: 70%;
+  justify-self: center;
+}*/
+
+.owl-carousel .owl-item img {
+  width: 288px;
+  height: 153px;
+  justify-self: center;
+}
+
+#estatisticas {
+  height: inherit;
+}
+#estatisticas hr {
+  border-width: 4px;
+}
+
+/*Tamanho padrão para smatphones*/
+@media screen and (max-width: 480px) {
+  .header-darkblue ul,
+  #menu {
+    display: none;
+  }
+
+  #logotipo {
+    left: 25%;
+  }
+  #news {
+    justify-items: center;
+    text-align: center;
+  }
+  #news h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  #news hr {
+    border-width: 4px;
+  }
+
+  #news h3 {
+    top: 5px;
+    font-size: 18px;
+  }
+
+  #btn-list,
+  #btn-search {
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    background: none;
+    border: none;
+  }
+
+  #btn-list {
+    left: 0;
+  }
+
+  #btn-search {
+    right: 0;
+  }
+}
+
+.owl-carousel .owl-wrapper-outer {
+  margin-left: 15px;
+}
+
+.row-thumbnail {
+  text-align: center;
+}
+
+/*.owl-carousel .owl-item img {
+  width: 80%;
+  height: 70%;
+  justify-self: center;
+}*/
+
+.owl-carousel .owl-item img {
+  width: 288px;
+  height: 153px;
+  justify-self: center;
+}
+
+#estatisticas {
+  height: inherit;
+}
+
+#estatisticas hr {
+  border-width: 4px;
+}
+
+footer {
+  margin-top: 60px;
+}
+
+.hidden-xs {
+  display: none;
+}
+
+.copyrigth-mobile p {
+  font-size: 10px;
+  line-height: 0px;
+}

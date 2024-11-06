@@ -257,3 +257,8 @@ footer p {
   text-align: center;
   padding: 5px 0; /* Espaçamento vertical entre os elementos a parte internaaaa */
 }
+
+#btn-list,
+#btn-search {
+  display: none;
+}

@@ -257,8 +257,8 @@ footer {
 }
 
 footer .row {
-  /*display: flex;
-  justify-content: space-between;*/
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   line-height: 30px;
 }
@@ -270,11 +270,13 @@ footer .row p {
 
 footer .row-cinza-claro {
   height: 200px;
+  width: 100%;
   background-color: #171f26;
 }
 
 footer .row-cinza-escuro {
   height: 60px;
+  width: 100%;
   background-color: #11171d;
   border-top: var(--cor-header-undertop) 1px solid;
 }
@@ -335,11 +337,11 @@ footer .col-get-in-touch a {
   font-size: 14px;
 }
 
-/*footer .row-cols ul {
+footer .row-cols ul {
   list-style: none;
   color: #767575;
   font-size: 14px;
-}*/
+}
 
 footer .col-get-in-touch address {
   color: #fff;
@@ -363,4 +365,9 @@ footer .col-get-in-touch i {
 
 footer .telefone {
   margin-top: -13px;
+}
+
+#btn-list,
+#btn-search {
+  display: none;
 }

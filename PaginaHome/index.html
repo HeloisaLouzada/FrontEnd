@@ -18,6 +18,25 @@
 
     <header>
 
+        <div id="menu-mobile-mask" class="visible-xs"></div>
+
+        <div id="menu-mobile" class="visible-xs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="../PaginaVideos/videos.html">Videos</a></li>
+                <li><a href="https://fapes.es.gov.br/Editais/Abertos">Editais</a></li>
+                <li><a href="https://www.sigfapes.es.gov.br/index.php?id=6">Cadastro</a></li>
+                <li><a href="https://fapes.es.gov.br/fale-conosco">Fale Conosco</a></li>
+
+            </ul>
+
+            <div id="barra-close" class="bar-close">
+
+                <button type="button" class="btn btn-close"><i class="bi bi-x-square-fill"></i></button>
+
+            </div>
+        </div>
+
         <div class="container">
             <img id="logotipo" src="png/Logotipo.png" width="220" height="110" alt="Logotipo">
         </div>
@@ -25,6 +44,9 @@
         <div class="header-darkblue">
 
             <div class="container">
+
+                <button id="btn-list" type="button"><i class="bi bi-list"></i></button>
+                <button id="btn-search" type="button"><i class="bi bi-search"></i></button>
 
                 <ul class="float-right">
                     <li class="menu-01"><a href="https://www.banestes.com.br/"></a></li>
@@ -280,7 +302,6 @@
 
             });
 
-
             $(".row-thumbnail").owlCarousel({
                 loop: true,
                 margin: 10,
@@ -305,7 +326,15 @@
             });
         });
 
+        $("#btn-list").on("click", function () {
+            $("header").toggleClass("open-menu");
 
+        });
+
+        $("#menu-mobile-mask, .btn-close").on("click", function () {
+            $("header").removeClass("open-menu");
+
+        });
 
     </script>
 
