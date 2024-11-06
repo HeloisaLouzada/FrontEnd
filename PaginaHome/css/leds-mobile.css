@@ -84,6 +84,10 @@
   border-width: 4px;
 }
 
+.hidden-xs {
+  display: block;
+}
+
 /*Tamanho padrão para smatphones*/
 @media screen and (max-width: 480px) {
   .header-darkblue ul,
@@ -173,13 +177,35 @@ footer {
   margin-top: 60px;
 }
 
-.hidden-xs {
+/*.copyrigth-mobile {
   display: none;
 }
 
 .copyrigth-mobile p {
   font-size: 10px;
   line-height: 0px;
+}
+
+.hidden-xs {
+  display: none;
+}*/
+
+footer .row p {
+  margin-top: 5px;
+  text-align: center;
+  line-height: 10px;
+}
+
+footer .row p:first-child {
+  margin-top: 10px;
+}
+
+footer .text-claro {
+  margin-right: 10px;
+}
+
+footer .row {
+  margin: 0;
 }
 
 header #menu-mobile {
